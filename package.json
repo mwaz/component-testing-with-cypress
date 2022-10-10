@@ -15,7 +15,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run",
     "eject": "react-scripts eject",
     "build:styles": "postcss src/styles/tailwind.css -o src/styles/styles.css",
     "prebuild": "npm run build:styles",
